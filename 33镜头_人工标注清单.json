@@ -1,0 +1,753 @@
+{
+  "format": "kuro-naiwa-review-v1",
+  "coordinates": "待处理底图原尺寸像素；原点在左上；bbox_xyxy 为 [左,上,右,下]，右和下边界不包含在内",
+  "shots": [
+    {
+      "id": "001",
+      "frame": 0,
+      "seconds": 0,
+      "image": "待处理底图/001_00.000s_五条悟坐在台上.png",
+      "width": 1677,
+      "height": 938,
+      "status": "annotated",
+      "note": "",
+      "regions": [
+        {
+          "action": "replace",
+          "character": "豆包",
+          "bbox_xyxy": [
+            1400,
+            272,
+            1677,
+            938
+          ]
+        },
+        {
+          "action": "replace",
+          "character": "牛来",
+          "bbox_xyxy": [
+            15,
+            6,
+            402,
+            934
+          ]
+        }
+      ]
+    },
+    {
+      "id": "006",
+      "frame": 85,
+      "seconds": 2.833,
+      "image": "待处理底图/006_02.833s_逆光与人群叠影.png",
+      "width": 1024,
+      "height": 446,
+      "status": "annotated",
+      "note": "",
+      "regions": [
+        {
+          "action": "replace",
+          "character": "牛来",
+          "bbox_xyxy": [
+            9,
+            86,
+            177,
+            224
+          ]
+        },
+        {
+          "action": "replace",
+          "character": "豆包",
+          "bbox_xyxy": [
+            135,
+            5,
+            259,
+            140
+          ]
+        },
+        {
+          "action": "replace",
+          "character": "肥嘟嘟",
+          "bbox_xyxy": [
+            217,
+            123,
+            362,
+            298
+          ]
+        },
+        {
+          "action": "replace",
+          "character": "奶娃",
+          "bbox_xyxy": [
+            348,
+            6,
+            806,
+            446
+          ]
+        }
+      ]
+    },
+    {
+      "id": "020",
+      "frame": 265,
+      "seconds": 8.833,
+      "image": "待处理底图/020_08.833s_强光中的背影.png",
+      "width": 1024,
+      "height": 446,
+      "status": "annotated",
+      "note": "",
+      "regions": [
+        {
+          "action": "replace",
+          "character": "奶娃",
+          "bbox_xyxy": [
+            366,
+            142,
+            693,
+            446
+          ]
+        }
+      ]
+    },
+    {
+      "id": "021",
+      "frame": 286,
+      "seconds": 9.533,
+      "image": "待处理底图/021_09.533s_蓝色阵图中的两人.png",
+      "width": 1024,
+      "height": 446,
+      "status": "annotated",
+      "note": "",
+      "regions": [
+        {
+          "action": "replace",
+          "character": "牛来",
+          "bbox_xyxy": [
+            372,
+            192,
+            562,
+            420
+          ]
+        },
+        {
+          "action": "replace",
+          "character": "肥嘟嘟",
+          "bbox_xyxy": [
+            467,
+            20,
+            696,
+            399
+          ]
+        }
+      ]
+    },
+    {
+      "id": "024",
+      "frame": 324,
+      "seconds": 10.8,
+      "image": "待处理底图/024_10.800s_红光穿过身体.png",
+      "width": 1024,
+      "height": 446,
+      "status": "annotated",
+      "note": "",
+      "regions": [
+        {
+          "action": "replace",
+          "character": "奶娃",
+          "bbox_xyxy": [
+            117,
+            4,
+            746,
+            446
+          ]
+        }
+      ]
+    },
+    {
+      "id": "025",
+      "frame": 337,
+      "seconds": 11.233,
+      "image": "待处理底图/025_11.233s_楼顶中央的人影.png",
+      "width": 1024,
+      "height": 497,
+      "status": "annotated",
+      "note": "",
+      "regions": [
+        {
+          "action": "replace",
+          "character": "奶娃",
+          "bbox_xyxy": [
+            460,
+            252,
+            584,
+            429
+          ]
+        }
+      ]
+    },
+    {
+      "id": "038",
+      "frame": 453,
+      "seconds": 15.1,
+      "image": "待处理底图/038_15.100s_夜街中掠过的人影.png",
+      "width": 1024,
+      "height": 497,
+      "status": "annotated",
+      "note": "",
+      "regions": [
+        {
+          "action": "replace",
+          "character": "小黑子",
+          "bbox_xyxy": [
+            373,
+            178,
+            659,
+            421
+          ]
+        }
+      ]
+    },
+    {
+      "id": "041",
+      "frame": 478,
+      "seconds": 15.933,
+      "image": "待处理底图/041_15.933s_楼顶尽头的运动残影.png",
+      "width": 1024,
+      "height": 497,
+      "status": "annotated",
+      "note": "",
+      "regions": [
+        {
+          "action": "replace",
+          "character": "小黑子",
+          "bbox_xyxy": [
+            464,
+            210,
+            654,
+            405
+          ]
+        }
+      ]
+    },
+    {
+      "id": "058",
+      "frame": 789,
+      "seconds": 26.3,
+      "image": "待处理底图/058_26.300s_白光扫过肩背.png",
+      "width": 1024,
+      "height": 446,
+      "status": "annotated",
+      "note": "",
+      "regions": [
+        {
+          "action": "replace",
+          "character": "奶娃",
+          "bbox_xyxy": [
+            78,
+            6,
+            816,
+            446
+          ]
+        }
+      ]
+    },
+    {
+      "id": "063",
+      "frame": 887,
+      "seconds": 29.567,
+      "image": "待处理底图/063_29.567s_强光切过流血面孔.png",
+      "width": 1024,
+      "height": 497,
+      "status": "annotated",
+      "note": "",
+      "regions": [
+        {
+          "action": "replace",
+          "character": "奶娃",
+          "bbox_xyxy": [
+            0,
+            2,
+            646,
+            497
+          ]
+        }
+      ]
+    },
+    {
+      "id": "068",
+      "frame": 960,
+      "seconds": 32,
+      "image": "待处理底图/068_32.000s_白闪中的对峙.png",
+      "width": 1024,
+      "height": 497,
+      "status": "annotated",
+      "note": "",
+      "regions": [
+        {
+          "action": "replace",
+          "character": "奶娃",
+          "bbox_xyxy": [
+            534,
+            157,
+            814,
+            446
+          ]
+        },
+        {
+          "action": "replace",
+          "character": "小黑子",
+          "bbox_xyxy": [
+            141,
+            143,
+            471,
+            435
+          ]
+        }
+      ]
+    },
+    {
+      "id": "076",
+      "frame": 1058,
+      "seconds": 35.267,
+      "image": "待处理底图/076_35.267s_红光射向长街.png",
+      "width": 1678,
+      "height": 937,
+      "status": "annotated",
+      "note": "",
+      "regions": [
+        {
+          "action": "replace",
+          "character": "小黑子",
+          "bbox_xyxy": [
+            0,
+            0,
+            418,
+            897
+          ]
+        }
+      ]
+    },
+    {
+      "id": "079",
+      "frame": 1086,
+      "seconds": 36.2,
+      "image": "待处理底图/079_36.200s_阴影中的亮瞳.png",
+      "width": 1024,
+      "height": 497,
+      "status": "annotated",
+      "note": "",
+      "regions": [
+        {
+          "action": "replace",
+          "character": "奶娃",
+          "bbox_xyxy": [
+            301,
+            7,
+            1024,
+            497
+          ]
+        }
+      ]
+    },
+    {
+      "id": "083",
+      "frame": 1125,
+      "seconds": 37.5,
+      "image": "待处理底图/083_37.500s_逆光白场中的上身.png",
+      "width": 1024,
+      "height": 497,
+      "status": "annotated",
+      "note": "",
+      "regions": [
+        {
+          "action": "replace",
+          "character": "奶娃",
+          "bbox_xyxy": [
+            320,
+            37,
+            849,
+            497
+          ]
+        }
+      ]
+    },
+    {
+      "id": "085",
+      "frame": 1156,
+      "seconds": 38.533,
+      "image": "待处理底图/085_38.533s_横过身体的红色拖影.png",
+      "width": 1024,
+      "height": 497,
+      "status": "annotated",
+      "note": "",
+      "regions": [
+        {
+          "action": "replace",
+          "character": "小黑子",
+          "bbox_xyxy": [
+            504,
+            26,
+            934,
+            487
+          ]
+        }
+      ]
+    },
+    {
+      "id": "088",
+      "frame": 1204,
+      "seconds": 40.133,
+      "image": "待处理底图/088_40.133s_蓝球前叠合的轮廓.png",
+      "width": 1024,
+      "height": 497,
+      "status": "skip",
+      "note": "背景图",
+      "regions": []
+    },
+    {
+      "id": "097",
+      "frame": 1340,
+      "seconds": 44.667,
+      "image": "待处理底图/097_44.667s_紫光下的群体剪影.png",
+      "width": 1024,
+      "height": 497,
+      "status": "annotated",
+      "note": "",
+      "regions": [
+        {
+          "action": "replace",
+          "character": "小黑子",
+          "bbox_xyxy": [
+            625,
+            256,
+            739,
+            438
+          ]
+        },
+        {
+          "action": "replace",
+          "character": "豆包",
+          "bbox_xyxy": [
+            215,
+            105,
+            414,
+            335
+          ]
+        },
+        {
+          "action": "replace",
+          "character": "奶娃",
+          "bbox_xyxy": [
+            451,
+            80,
+            575,
+            239
+          ]
+        }
+      ]
+    },
+    {
+      "id": "003",
+      "frame": 46,
+      "seconds": 1.533,
+      "image": "待处理底图/003_01.533s_三人同行.png",
+      "width": 1677,
+      "height": 938,
+      "status": "annotated",
+      "note": "",
+      "regions": [
+        {
+          "action": "replace",
+          "character": "豆包",
+          "bbox_xyxy": [
+            1235,
+            254,
+            1677,
+            842
+          ]
+        },
+        {
+          "action": "replace",
+          "character": "牛来",
+          "bbox_xyxy": [
+            57,
+            250,
+            596,
+            938
+          ]
+        }
+      ]
+    },
+    {
+      "id": "009",
+      "frame": 128,
+      "seconds": 4.267,
+      "image": "待处理底图/009_04.267s_三名旁观者.png",
+      "width": 1024,
+      "height": 446,
+      "status": "pending",
+      "note": "三个人保留自身的风格和特点替换成不同的小奶娃",
+      "regions": []
+    },
+    {
+      "id": "010",
+      "frame": 140,
+      "seconds": 4.667,
+      "image": "待处理底图/010_04.667s_室内旁观者.png",
+      "width": 1024,
+      "height": 446,
+      "status": "annotated",
+      "note": "两个人保留自身的风格和特点替换成不同的小奶娃",
+      "regions": [
+        {
+          "action": "replace",
+          "character": "牛来",
+          "bbox_xyxy": [
+            458,
+            27,
+            715,
+            446
+          ]
+        },
+        {
+          "action": "replace",
+          "character": "肥嘟嘟",
+          "bbox_xyxy": [
+            25,
+            147,
+            397,
+            446
+          ]
+        }
+      ]
+    },
+    {
+      "id": "011",
+      "frame": 153,
+      "seconds": 5.1,
+      "image": "待处理底图/011_05.100s_并排观战.png",
+      "width": 1024,
+      "height": 446,
+      "status": "annotated",
+      "note": "两个人保留自身的风格和特点替换成不同的小奶娃",
+      "regions": [
+        {
+          "action": "replace",
+          "character": "豆包",
+          "bbox_xyxy": [
+            575,
+            0,
+            848,
+            433
+          ]
+        },
+        {
+          "action": "replace",
+          "character": "牛来",
+          "bbox_xyxy": [
+            130,
+            10,
+            573,
+            446
+          ]
+        }
+      ]
+    },
+    {
+      "id": "012",
+      "frame": 168,
+      "seconds": 5.6,
+      "image": "待处理底图/012_05.600s_仪式中的三人.png",
+      "width": 1859,
+      "height": 846,
+      "status": "annotated",
+      "note": "",
+      "regions": [
+        {
+          "action": "replace",
+          "character": "豆包",
+          "bbox_xyxy": [
+            1245,
+            31,
+            1782,
+            846
+          ]
+        },
+        {
+          "action": "replace",
+          "character": "牛来",
+          "bbox_xyxy": [
+            193,
+            315,
+            808,
+            846
+          ]
+        }
+      ]
+    },
+    {
+      "id": "015",
+      "frame": 205,
+      "seconds": 6.833,
+      "image": "待处理底图/015_06.833s_拨弦的手.png",
+      "width": 1024,
+      "height": 446,
+      "status": "skip",
+      "note": "乐器近景",
+      "regions": []
+    },
+    {
+      "id": "016",
+      "frame": 210,
+      "seconds": 7,
+      "image": "待处理底图/016_07.000s_仪式舞步.png",
+      "width": 1024,
+      "height": 446,
+      "status": "pending",
+      "note": "豆包的玉足",
+      "regions": []
+    },
+    {
+      "id": "017",
+      "frame": 226,
+      "seconds": 7.533,
+      "image": "待处理底图/017_07.533s_长袖舞者侧身.png",
+      "width": 1024,
+      "height": 446,
+      "status": "annotated",
+      "note": "",
+      "regions": [
+        {
+          "action": "replace",
+          "character": "豆包",
+          "bbox_xyxy": [
+            152,
+            3,
+            683,
+            446
+          ]
+        }
+      ]
+    },
+    {
+      "id": "018",
+      "frame": 244,
+      "seconds": 8.133,
+      "image": "待处理底图/018_08.133s_老人弹奏乐器.png",
+      "width": 1024,
+      "height": 446,
+      "status": "annotated",
+      "note": "",
+      "regions": [
+        {
+          "action": "replace",
+          "character": "牛来",
+          "bbox_xyxy": [
+            424,
+            36,
+            766,
+            446
+          ]
+        }
+      ]
+    },
+    {
+      "id": "019",
+      "frame": 253,
+      "seconds": 8.433,
+      "image": "待处理底图/019_08.433s_舞者落脚.png",
+      "width": 1024,
+      "height": 446,
+      "status": "pending",
+      "note": "豆包的玉足",
+      "regions": []
+    },
+    {
+      "id": "020A",
+      "frame": 280,
+      "seconds": 9.333,
+      "image": "待处理底图/020A_09.333s_阵图前俯身人物.png",
+      "width": 1024,
+      "height": 446,
+      "status": "annotated",
+      "note": "",
+      "regions": [
+        {
+          "action": "replace",
+          "character": "牛来",
+          "bbox_xyxy": [
+            80,
+            0,
+            936,
+            428
+          ]
+        }
+      ]
+    },
+    {
+      "id": "022",
+      "frame": 295,
+      "seconds": 9.833,
+      "image": "待处理底图/022_09.833s_眼镜男子特写.png",
+      "width": 1024,
+      "height": 446,
+      "status": "annotated",
+      "note": "",
+      "regions": [
+        {
+          "action": "replace",
+          "character": "牛来",
+          "bbox_xyxy": [
+            142,
+            9,
+            985,
+            446
+          ]
+        }
+      ]
+    },
+    {
+      "id": "023",
+      "frame": 307,
+      "seconds": 10.233,
+      "image": "待处理底图/023_10.233s_阵图中的老者.png",
+      "width": 1024,
+      "height": 446,
+      "status": "pending",
+      "note": "",
+      "regions": []
+    },
+    {
+      "id": "061",
+      "frame": 832,
+      "seconds": 27.733,
+      "image": "待处理底图/061_27.733s_青色叠印与结印.png",
+      "width": 1678,
+      "height": 937,
+      "status": "pending",
+      "note": "",
+      "regions": []
+    },
+    {
+      "id": "061A",
+      "frame": 855,
+      "seconds": 28.5,
+      "image": "待处理底图/061A_28.500s_红色叠印侧脸.png",
+      "width": 1024,
+      "height": 446,
+      "status": "pending",
+      "note": "",
+      "regions": []
+    },
+    {
+      "id": "096",
+      "frame": 1315,
+      "seconds": 43.833,
+      "image": "待处理底图/096_43.833s_持法轮的异形冲出.png",
+      "width": 1024,
+      "height": 497,
+      "status": "pending",
+      "note": "",
+      "regions": []
+    }
+  ]
+}

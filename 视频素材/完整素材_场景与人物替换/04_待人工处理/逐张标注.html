@@ -4,7 +4,7 @@
 *{box-sizing:border-box}body{margin:0;font:15px/1.5 "Microsoft YaHei",system-ui,sans-serif;background:#151819;color:#f3efe6}button,input,textarea{font:inherit}button{color:inherit;background:#292d2d;border:1px solid #505454;border-radius:6px;cursor:pointer;padding:7px 13px}button:hover{border-color:#e5c481}button:focus-visible,a:focus-visible{outline:3px solid #efc680}button:disabled{opacity:.38;cursor:default}header{display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:16px 3vw;border-bottom:1px solid #41443f;background:#1d201f}header strong{font-size:21px}#progress{color:#b9bcb6}#transfer{margin-left:auto;display:flex;gap:8px}.gold{background:#e9c781;color:#211e16;border-color:transparent;font-weight:700}.layout{display:grid;grid-template-columns:162px minmax(0,1fr);max-width:1700px;margin:auto}nav{border-right:1px solid #383d39;padding:20px 12px;display:flex;flex-direction:column;gap:4px}nav button{display:flex;align-items:center;justify-content:space-between;border-color:transparent;background:transparent;font-variant-numeric:tabular-nums}nav button small{color:#aeb2aa}nav button[aria-current=true]{background:#39372c;border-color:#a98a53}main{min-width:0;padding:18px clamp(14px,2.4vw,40px) 36px}.top,.controls,.commands{display:flex;align-items:center;gap:9px;flex-wrap:wrap}h1{font-size:clamp(20px,2vw,32px);margin:0}.arrows{margin-left:auto;display:flex;gap:4px}.reason{margin:6px 0 15px;color:#c4c6c0}.frames{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:14px;align-items:start}figure{margin:0;background:#101212;border:1px solid #393e3a;border-radius:8px;overflow:hidden}figcaption{padding:8px 12px;color:#d6d8d0;font-weight:600}.image{width:100%;display:block}.stage{position:relative;width:100%;touch-action:none;cursor:crosshair;user-select:none}.stage img{pointer-events:none}.mark{position:absolute;border:2px solid var(--tone);background:color-mix(in srgb,var(--tone) 12%,transparent);pointer-events:none}.mark span{position:absolute;top:0;left:0;background:var(--tone);color:#171a17;font-weight:700;font-size:12px;white-space:nowrap;padding:0 4px}.controls{margin:6px 0 10px}.controls button[aria-pressed=true]{outline:2px solid var(--tone);outline-offset:1px}.chip{display:inline-block;width:10px;height:10px;background:var(--tone);border-radius:50%;margin-right:7px}.hint,small{color:#b7bbb4}.strip{margin:14px 0}.strip img{max-height:155px;object-fit:contain}a{color:#e9c781}.lower{display:grid;grid-template-columns:1fr 1fr;gap:20px}.commands{margin-top:12px}.row{display:flex;align-items:center;gap:9px;margin:6px 0}.row button{padding:2px 9px}textarea{width:100%;min-height:65px;resize:vertical;margin-top:4px;background:#232725;border:1px solid #50544f;border-radius:5px;color:inherit;padding:8px}#msg{color:#e5c481;margin:8px 0;font-size:13px}#skip[aria-pressed=true]{background:#e9c781;color:#23251f}@media(max-width:800px){.layout{display:block}nav{flex-direction:row;overflow:auto;border-right:0;padding:8px;max-width:100vw}nav button{flex:none;gap:5px}main{padding:12px}.frames{grid-template-columns:1fr}.lower{grid-template-columns:1fr}.frames figure:nth-child(2) img{max-height:205px;object-fit:contain}#transfer{margin-left:0}.hint{width:100%}}
 .refs{margin-bottom:12px}.refs summary{cursor:pointer;color:#e9c781;width:fit-content}.refs>div{display:flex;flex-wrap:wrap;gap:10px;margin:10px 0}.refs a{display:grid;gap:3px;text-align:center;font-size:13px;text-decoration:none}.refs img{width:84px;height:78px;object-fit:contain;background:#232725;border-radius:5px}.row select{background:#292d2d;color:inherit;border:1px solid #505454;border-radius:5px;padding:4px;font:inherit}
 nav{max-height:96vh;overflow-y:auto;align-self:start}nav>b{font-size:13px;color:#e9c781;padding:7px;white-space:nowrap}@media(max-width:800px){nav>b{display:none}}</style>
-<header><strong>镜头标注</strong><span id="progress"></span><div id="transfer"><button id="importBtn">导入清单</button><button id="exportBtn" class="gold">导出 JSON 清单</button></div><input id="upload" type="file" accept=".json,application/json" hidden></header>
+<header><strong>镜头标注</strong><span id="progress"></span><div id="transfer"><button id="importBtn">导入清单</button><button id="writeBtn" class="gold" hidden>保存到固定文件</button><a id="liveLink" href="http://127.0.0.1:18733/" hidden>打开固定路径保存页</a><button id="exportBtn">导出 JSON 清单</button></div><input id="upload" type="file" accept=".json,application/json" hidden></header>
 <div class="layout"><nav id="nav" aria-label="镜头列表"></nav><main><div class="top"><h1 id="title"></h1><div class="arrows"><button id="prev">上一张</button><button id="next">下一张</button></div></div><p class="reason" id="reason"></p>
 <details class="refs"><summary>查看角色参考图</summary><div><a href="../../人物/小黑子.jpg" target="_blank" rel="noopener"><img src="../../人物/小黑子.jpg" alt="小黑子参考图"><span>小黑子</span></a><a href="../../人物/奶娃.jpg" target="_blank" rel="noopener"><img src="../../人物/奶娃.jpg" alt="奶娃参考图"><span>奶娃</span></a><a href="../../人物/豆包.jpg" target="_blank" rel="noopener"><img src="../../人物/豆包.jpg" alt="豆包参考图"><span>豆包</span></a><a href="../../人物/肥嘟嘟.jpg" target="_blank" rel="noopener"><img src="../../人物/肥嘟嘟.jpg" alt="肥嘟嘟参考图"><span>肥嘟嘟</span></a><a href="../../人物/牛来.jpg" target="_blank" rel="noopener"><img src="../../人物/牛来.jpg" alt="牛来参考图"><span>牛来</span></a><a href="../../人物/牛来半身.jpg" target="_blank" rel="noopener"><img src="../../人物/牛来半身.jpg" alt="牛来半身参考图"><span>牛来半身</span></a><a href="../../人物/牛来全身.jpg" target="_blank" rel="noopener"><img src="../../人物/牛来全身.jpg" alt="牛来全身参考图"><span>牛来全身</span></a></div></details>
 <div class="controls" id="tools"></div>
@@ -23,27 +23,27 @@ const characters = {
 };
 const colors = {...characters, '跳过此处': '#c3bde5'};
 
-const key='kuro-naiwa.review33.v1', format='kuro-naiwa-review-v1';
+const key='kuro-naiwa.review33.file-v2', format='kuro-naiwa-review-v1';
 let index=0,tool='小黑子',draft=null,storageOK=true;
 const empty=()=>({skip:false,regions:[],note:''});
-const initial={};
+const initial={"001": {"skip": false, "note": "", "regions": [{"label": "豆包", "box": [1400, 272, 1677, 938]}, {"label": "牛来", "box": [15, 6, 402, 934]}]}, "006": {"skip": false, "note": "", "regions": [{"label": "牛来", "box": [9, 86, 177, 224]}, {"label": "豆包", "box": [135, 5, 259, 140]}, {"label": "肥嘟嘟", "box": [217, 123, 362, 298]}, {"label": "奶娃", "box": [348, 6, 806, 446]}]}, "020": {"skip": false, "note": "", "regions": [{"label": "奶娃", "box": [366, 142, 693, 446]}]}, "021": {"skip": false, "note": "", "regions": [{"label": "牛来", "box": [372, 192, 562, 420]}, {"label": "肥嘟嘟", "box": [467, 20, 696, 399]}]}, "024": {"skip": false, "note": "", "regions": [{"label": "奶娃", "box": [117, 4, 746, 446]}]}, "025": {"skip": false, "note": "", "regions": [{"label": "奶娃", "box": [460, 252, 584, 429]}]}, "038": {"skip": false, "note": "", "regions": [{"label": "小黑子", "box": [373, 178, 659, 421]}]}, "041": {"skip": false, "note": "", "regions": [{"label": "小黑子", "box": [464, 210, 654, 405]}]}, "058": {"skip": false, "note": "", "regions": [{"label": "奶娃", "box": [78, 6, 816, 446]}]}, "063": {"skip": false, "note": "", "regions": [{"label": "奶娃", "box": [0, 2, 646, 497]}]}, "068": {"skip": false, "note": "", "regions": [{"label": "奶娃", "box": [534, 157, 814, 446]}, {"label": "小黑子", "box": [141, 143, 471, 435]}]}, "076": {"skip": false, "note": "", "regions": [{"label": "小黑子", "box": [0, 0, 418, 897]}]}, "079": {"skip": false, "note": "", "regions": [{"label": "奶娃", "box": [301, 7, 1024, 497]}]}, "083": {"skip": false, "note": "", "regions": [{"label": "奶娃", "box": [320, 37, 849, 497]}]}, "085": {"skip": false, "note": "", "regions": [{"label": "小黑子", "box": [504, 26, 934, 487]}]}, "088": {"skip": true, "note": "背景图", "regions": []}, "097": {"skip": false, "note": "", "regions": [{"label": "小黑子", "box": [625, 256, 739, 438]}, {"label": "豆包", "box": [215, 105, 414, 335]}, {"label": "奶娃", "box": [451, 80, 575, 239]}]}, "003": {"skip": false, "note": "", "regions": [{"label": "豆包", "box": [1235, 254, 1677, 842]}, {"label": "牛来", "box": [57, 250, 596, 938]}]}, "009": {"skip": false, "note": "三个人保留自身的风格和特点替换成不同的小奶娃", "regions": []}, "010": {"skip": false, "note": "两个人保留自身的风格和特点替换成不同的小奶娃", "regions": [{"label": "牛来", "box": [458, 27, 715, 446]}, {"label": "肥嘟嘟", "box": [25, 147, 397, 446]}]}, "011": {"skip": false, "note": "两个人保留自身的风格和特点替换成不同的小奶娃", "regions": [{"label": "豆包", "box": [575, 0, 848, 433]}, {"label": "牛来", "box": [130, 10, 573, 446]}]}, "012": {"skip": false, "note": "", "regions": [{"label": "豆包", "box": [1245, 31, 1782, 846]}, {"label": "牛来", "box": [193, 315, 808, 846]}]}, "015": {"skip": true, "note": "乐器近景", "regions": []}, "016": {"skip": false, "note": "豆包的玉足", "regions": []}, "017": {"skip": false, "note": "", "regions": [{"label": "豆包", "box": [152, 3, 683, 446]}]}, "018": {"skip": false, "note": "", "regions": [{"label": "牛来", "box": [424, 36, 766, 446]}]}, "019": {"skip": false, "note": "豆包的玉足", "regions": []}, "020A": {"skip": false, "note": "", "regions": [{"label": "牛来", "box": [80, 0, 936, 428]}]}, "022": {"skip": false, "note": "", "regions": [{"label": "牛来", "box": [142, 9, 985, 446]}]}, "023": {"skip": false, "note": "", "regions": []}, "061": {"skip": false, "note": "", "regions": []}, "061A": {"skip": false, "note": "", "regions": []}, "096": {"skip": false, "note": "", "regions": []}};
 const previousIds=new Set(shots.slice(0,17).map(s=>s.id));
 let items=shots.map(s=>initial[s.id] || empty());
-if(!Object.keys(initial).length){
- try{
-  const previous=JSON.parse(localStorage.getItem('kuro-naiwa.review17.v1'));
-  if(previous?.items?.length===17 && previous.items.every(fits))items.splice(0,17,...previous.items);
- }catch{}
-}
-const background=shots.findIndex(s=>s.id==='088');
-items[background]={skip:true,regions:[],note:'背景图'};
-index=17;
+const live=location.protocol==='http:' && location.hostname==='127.0.0.1';
+let revision=null, savedState='';
+function firstPending(){const i=items.findIndex(v=>!v.skip&&!v.regions.length);return i<0?0:i}
+index=firstPending();
 function status(v){return v.skip?'整张跳过':v.regions.length?'已标注':'待标注'}
-function save(){try{localStorage.setItem(key,JSON.stringify({items,index}));storageOK=true}catch{storageOK=false}
+function save(){
+ if(live){
+  $('msg').textContent=JSON.stringify(items)===savedState?'已从固定清单载入当前进度。':'有未写入清单的改动，点击「保存到固定文件」。';
+  return;
+ }
+ try{localStorage.setItem(key,JSON.stringify({items,index}));storageOK=true}catch{storageOK=false}
  $('msg').textContent=storageOK?'进度已保存在当前浏览器。导出 JSON 可备份或交回处理。':'浏览器无法保存进度，请导出 JSON 备份。'}
 function valid(v){return v && typeof v.skip==='boolean' && typeof v.note==='string' && Array.isArray(v.regions) && !(v.skip&&v.regions.length) && v.regions.every(r=>r&&Object.hasOwn(colors,r.label)&&Array.isArray(r.box)&&r.box.length===4&&r.box.every(Number.isInteger)&&r.box[0]>=0&&r.box[1]>=0&&r.box[2]>r.box[0]&&r.box[3]>r.box[1])}
 function fits(v,i){return valid(v)&&v.regions.every(r=>r.box[2]<=shots[i].w&&r.box[3]<=shots[i].h)}
-try{const s=JSON.parse(localStorage.getItem(key));if(s&&s.items.length===shots.length&&s.items.every(fits)){items=s.items;index=Number.isInteger(s.index)&&shots[s.index]?s.index:0}}catch{}
+try{const s=JSON.parse(localStorage.getItem(key));if(!live&&s&&s.items.length===shots.length&&s.items.every(fits)){items=s.items;index=Number.isInteger(s.index)&&shots[s.index]?s.index:0}}catch{}
 function drawBox(r){const s=shots[index],b=r.box,el=document.createElement('div');el.className='mark';el.style.cssText='--tone:'+colors[r.label]+';left:'+100*b[0]/s.w+'%;top:'+100*b[1]/s.h+'%;width:'+100*(b[2]-b[0])/s.w+'%;height:'+100*(b[3]-b[1])/s.h+'%';const t=document.createElement('span');t.textContent=r.label;el.append(t);$('boxes').append(el)}
 function boxes(){ $('boxes').replaceChildren();items[index].regions.forEach(drawBox);if(draft)drawBox({label:tool,box:bounds(draft.start,draft.end)})}
 function refresh(){const v=items[index],s=shots[index];
@@ -72,15 +72,43 @@ stage.onpointercancel=()=>{draft=null;boxes()};
 $('skip').onclick=()=>{const v=items[index];if(v.regions.length&&!confirm('整张跳过会清除本张所有框，继续吗？'))return;v.skip=!v.skip;v.regions=[];refresh();save()};
 $('reset').onclick=()=>{if(!confirm('清空本张标记并恢复为待标注？'))return;items[index].skip=false;items[index].regions=[];refresh();save()};
 $('note').oninput=()=>{items[index].note=$('note').value;save()};$('prev').onclick=()=>show(index-1);$('next').onclick=()=>show(index+1);
-$('exportBtn').onclick=()=>{const result={format,coordinates:'待处理底图原尺寸像素；原点在左上；bbox_xyxy 为 [左,上,右,下]，右和下边界不包含在内',shots:shots.map((s,i)=>({id:s.id,frame:s.frame,seconds:Number(s.sec),image:s.base,width:s.w,height:s.h,status:items[i].skip?'skip':items[i].regions.length?'annotated':'pending',note:items[i].note,regions:items[i].regions.map(r=>({action:r.label==='跳过此处'?'skip_region':'replace',character:r.label==='跳过此处'?null:r.label,bbox_xyxy:r.box}))}))};
- const url=URL.createObjectURL(new Blob([JSON.stringify(result,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download=shots.length+'镜头_人工标注清单.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),10000)};
+function manifest(){return {format,coordinates:'待处理底图原尺寸像素；原点在左上；bbox_xyxy 为 [左,上,右,下]，右和下边界不包含在内',shots:shots.map((s,i)=>({id:s.id,frame:s.frame,seconds:Number(s.sec),image:s.base,width:s.w,height:s.h,status:items[i].skip?'skip':items[i].regions.length?'annotated':'pending',note:items[i].note,regions:items[i].regions.map(r=>({action:r.label==='跳过此处'?'skip_region':'replace',character:r.label==='跳过此处'?null:r.label,bbox_xyxy:r.box}))}))};
+ }
+$('exportBtn').onclick=()=>{const result=manifest();const url=URL.createObjectURL(new Blob([JSON.stringify(result,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download=shots.length+'镜头_人工标注清单.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),10000)};
 $('importBtn').onclick=()=>$('upload').click();
-$('upload').onchange=async e=>{const file=e.target.files[0];if(!file)return;try{const data=JSON.parse(await file.text());if(data.format!==format||!Array.isArray(data.shots))throw Error();
+$('upload').onchange=async e=>{const file=e.target.files[0];if(!file)return;try{const data=JSON.parse(await file.text());const {incoming,legacy}=decodeManifest(data);
+ if(items.some(v=>v.skip||v.note||v.regions.length)&&!confirm(legacy?'更新原有 17 张标注，保留新增镜头的进度？':'用导入的清单替换当前标注进度？'))return;items=incoming;show(index);$('msg').textContent='已导入标注清单。'}catch{$('msg').textContent='导入失败，请选择本页导出的完整 JSON 清单。'}finally{e.target.value=''}};
+function decodeManifest(data){
+if(data.format!==format||!Array.isArray(data.shots))throw Error();
  const byId=new Map(data.shots.map(v=>[v.id,v]));
  const legacy=byId.size===17 && [...previousIds].every(id=>byId.has(id));
  if(byId.size!==data.shots.length || (!legacy && byId.size!==shots.length))throw Error();
  const incoming=shots.map((s,i)=>{const v=byId.get(s.id);if(legacy&&!previousIds.has(s.id))return items[i];if(!v||v.image!==s.base||v.frame!==s.frame||v.width!==s.w||v.height!==s.h||!['skip','annotated','pending'].includes(v.status)||!Array.isArray(v.regions)||(v.status==='annotated')!==Boolean(v.regions.length))throw Error();
  const state={skip:v.status==='skip',note:v.note,regions:v.regions.map(r=>{const label=r.action==='skip_region'&&r.character===null?'跳过此处':r.action==='replace'&&Object.hasOwn(characters,r.character)?r.character:null;return {label,box:r.bbox_xyxy}})};if(!fits(state,i))throw Error();if(legacy&&s.id==='088'&&v.status==='pending')return {skip:true,note:v.note||'背景图',regions:[]};return state});
- if(items.some(v=>v.skip||v.note||v.regions.length)&&!confirm(legacy?'更新原有 17 张标注，保留新增镜头的进度？':'用导入的清单替换当前标注进度？'))return;items=incoming;show(index);$('msg').textContent='已导入标注清单。'}catch{$('msg').textContent='导入失败，请选择本页导出的完整 JSON 清单。'}finally{e.target.value=''}};
-show(index);
+return {incoming,legacy};
+}
+async function startup(){
+ if(!live){$('liveLink').hidden=false;show(index);return}
+ document.querySelector('main').inert=true;
+ try{
+  const res=await fetch('/api/annotations',{cache:'no-store'});
+  if(!res.ok)throw Error();
+  const result=decodeManifest(await res.json());
+  if(result.legacy)throw Error();
+  revision=res.headers.get('ETag');items=result.incoming;savedState=JSON.stringify(items);
+  show(firstPending());$('writeBtn').hidden=false;document.querySelector('main').inert=false;
+ }catch{$('msg').textContent='无法读取固定清单，请检查文件后刷新页面。'}
+}
+$('writeBtn').onclick=async()=>{
+ const snapshot=JSON.stringify(items);$('writeBtn').disabled=true;
+ try{
+  const res=await fetch('/api/annotations',{method:'PUT',headers:{'Content-Type':'application/json','If-Match':revision},body:JSON.stringify(manifest())});
+  if(res.status===409){$('msg').textContent='文件已被其他窗口修改。请先导出当前标注，再刷新核对。';return}
+  if(!res.ok)throw Error();
+  revision=res.headers.get('ETag');savedState=snapshot;
+  $('msg').textContent=snapshot===JSON.stringify(items)?'已覆盖保存到 33镜头_人工标注清单.json。':'已保存；保存期间的新改动请再保存一次。';
+ }catch{$('msg').textContent='写入失败，请重试或导出 JSON 备份。'}finally{$('writeBtn').disabled=false}
+};
+window.addEventListener('beforeunload',e=>{if(live&&revision&&savedState!==JSON.stringify(items)){e.preventDefault();e.returnValue=''}});
+startup();
 </script></html>
