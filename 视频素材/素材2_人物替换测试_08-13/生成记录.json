@@ -1,0 +1,102 @@
+{
+  "tool": "image_gen built-in",
+  "status": "generated_with_pose_limitation_on_13",
+  "requested_images": [
+    "08",
+    "09",
+    "11",
+    "12",
+    "13"
+  ],
+  "skipped_images": [
+    "10"
+  ],
+  "important_note": "图13人物身份、前后方向符合，但动作及构图仍与原图有偏差，保留为测试版。",
+  "images": [
+    {
+      "key": "08",
+      "title": "小黑子背影与手势",
+      "paths": [
+        "视频素材\\素材2_主要场景\\08_04.500s_背影视角与手势.png",
+        "视频素材\\小黑子.jpg",
+        "视频素材\\素材2_人物替换测试_02-06\\02_小黑子背影.png"
+      ],
+      "prompt": "Edit IMAGE 1 as the locked composition, pose, camera and anime-style target. IMAGE 2 is ONLY the identity reference for 小黑子. IMAGE 3 is a completed rear view of this replacement character from the same sequence, for appearance and rendering continuity ONLY. Produce ONE standalone landscape image. Replace the large foreground human on the RIGHT side of image 1 with 小黑子 from BEHIND: silver-gray center-parted curtain hair seen from the rear, yellow chick skin, black hoodie, gray shoulder straps and orange-brown backpack. The camera sees its BACK, NOT a frontal face; no face pasted onto the back of its head. Preserve EXACTLY the original rear three-quarter orientation toward screen-left / the distant figure, original hunched or leaned-forward torso, head tilt, raised bent arm and hand-seal held near the face, foreground screen position, silhouette scale, and camera angle. Adapt the character anatomy to the target pose, do not copy the reference's neutral standing pose. Keep the distant blurred figure and dark negative space in image 1 unchanged. Preserve the diagonal row of rounded architectural protrusions sweeping across the lower foreground and the tall architectural spike on the far right, with their same depth and placement. Preserve the very dark blue-black scene, original white/cool rim lighting, subtle pink illumination, dramatic hand-drawn anime/manga cel-shading, ink linework, crosshatching and film grain; match the completed character's design without introducing the pastel reference background. Remove all Chinese subtitles and reconstruct the scene underneath. Crop away the vertical black pillarbox bars and thin colored top-edge artifact so only the original active picture fills a clean edge-to-edge 16:9 landscape image at approximately 1672x941 or higher resolution in the same ratio. No added borders, text, logos, watermark, extra people, frontal character turn or changed gesture.",
+      "visual_review": "已查看人物身份、主要朝向动作、风格，以及字幕与黑边去除。",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "saved": "视频素材\\素材2_人物替换测试_08-13\\08_小黑子背影与手势.png",
+      "sha256": "d7a700b53cee649e20326cedc5a7893141f23203672397095757bf067abda0c8"
+    },
+    {
+      "key": "09",
+      "title": "奶娃面部特写",
+      "paths": [
+        "视频素材\\素材2_主要场景\\09_05.200s_白发人物面部特写.png",
+        "视频素材\\奶娃.jpg",
+        "视频素材\\素材2_人物替换测试_02-06\\03_奶娃悬空.png"
+      ],
+      "prompt": "Edit IMAGE 1, preserving its camera, close-up composition, action direction, background and original anime style. IMAGE 2 is ONLY the identity reference for 奶娃. IMAGE 3 is a completed different shot of the same replacement character, for identity and hand-drawn rendering continuity only, NOT pose or scale. Replace the original white-haired human with 奶娃: elongated smooth rounded bald yellow head, large protruding GREEN irises with black pupils, small flat mouth, yellow pear-shaped creature anatomy, no human hair or human facial identity. Keep the EXACT target head angle and close-up framing: head occupies center-right, shown in a three-quarter view looking toward SCREEN-RIGHT, eyes widened in the same startled expression and mouth slightly open. Preserve the neck/shoulder crop and its original lean and gaze; do not turn it toward screen-left or into a frontal studio pose. Retain the character's green eyes and yellow identity even under the original strong CYAN-BLUE wash and rim lighting, shading the yellow naturally with cool blue shadows. Preserve the exact red-pink diagonal slash/energy streaks crossing from upper-left past the side of the head/neck toward lower-center, their trajectory, spacing and layering, as well as the dark blurred city background and white streaks behind the head. Translate the reference creature into the original detailed hand-drawn high-contrast anime/manga cel-shading, contours, line hatch and scene grain, not smooth 3D or a pasted flat sticker. Remove all subtitles and reconstruct the shoulder/dark background behind them. Remove black pillarbox bars and the thin colored top-edge artifact, showing ONLY the active scene as a clean edge-to-edge 16:9 widescreen image, approximately 1672x941 or higher resolution at this ratio. ONE standalone image, no comparison, no borders, text, watermark, logo, new characters, hair or clothing invented from the original human.",
+      "visual_review": "已查看人物身份、主要朝向动作、风格，以及字幕与黑边去除。",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "saved": "视频素材\\素材2_人物替换测试_08-13\\09_奶娃面部特写.png",
+      "sha256": "d1c0251d32dfb13a66e6c887db25618b9a1a98742617f46b6c28dbf18f1617e5"
+    },
+    {
+      "key": "11",
+      "title": "小黑子逆光结印",
+      "paths": [
+        "视频素材\\素材2_主要场景\\11_06.600s_红眼人物结印.png",
+        "视频素材\\小黑子.jpg",
+        "视频素材\\素材2_人物替换测试_02-06\\05_小黑子暗光结印.png"
+      ],
+      "prompt": "Edit IMAGE 1 as the locked target scene, composition, camera and pose. IMAGE 2 is ONLY the identity reference 小黑子. IMAGE 3 is an already completed dark close-up of this character for appearance and detailed anime rendering continuity ONLY, not for its pose. Output ONE standalone edge-to-edge panoramic image. Completely replace the original human in image 1 with 小黑子: silver-gray center-parted curtain hair, yellow chick-like face and hands, red circular cheeks, small orange beak, black hoodie and recognizable two large white eyes with black pupils. Preserve image 1's exact close-up angle and action: face is on the RIGHT, turned toward SCREEN-LEFT and slightly upward; its TWO palms are pressed together VERTICALLY at CENTER-LEFT very near its face, with the SAME original visible extended fingers, wrist directions and relative hand size. Keep the exact confident sinister grin and the original head tilt; adapt to the orange beak without turning it into a human nose or mouth. Do not copy image 3's triangular fingertip gesture. Maintain just TWO reference eyes, no original extra eyes, tattoos or original human identity. The right half of its head and hoodie remain in deep shadow, with strong peach-white / orange backlight on the LEFT and the original pink-red rim illumination along its cheek. Preserve original background energy rays and lighting geometry, extreme light-dark contrast, original detailed hand-drawn anime/manga cel shading, black ink lines, crosshatching and grain. Remove the Chinese subtitles with natural reconstruction behind them. Remove ALL black pillarbox bars on the left/right AND the hard rectangular letterbox bands above/below the active scene, and remove thin colored edge artifacts. Preserve the active scene's original wide composition by outputting the active picture only in an approximately 2.2:1 panoramic ratio (for example 1920x864), no bars; do not stretch the character or add a new black frame. No subtitles, text, logos, watermark, extra people, changed hand sign or reversed face direction.",
+      "visual_review": "已查看人物身份、主要朝向动作、风格，以及字幕与黑边去除。",
+      "dimensions": [
+        1859,
+        846
+      ],
+      "saved": "视频素材\\素材2_人物替换测试_08-13\\11_小黑子逆光结印.png",
+      "sha256": "4a4b17ab0672d236b02db46a1115408a62e8087b3c8a32afc0f15c65e6ae256a"
+    },
+    {
+      "key": "12",
+      "title": "奶娃眼部特写与强光",
+      "paths": [
+        "视频素材\\素材2_主要场景\\12_08.033s_眼部特写与强光.png",
+        "视频素材\\奶娃.jpg",
+        "视频素材\\素材2_人物替换测试_02-06\\03_奶娃悬空.png"
+      ],
+      "prompt": "Edit IMAGE 1 as the exact fixed camera, framing, effects layout, pose and anime-style target. IMAGE 2 is ONLY the identity reference for 奶娃, the yellow smooth bald pear-shaped creature with large protruding green irises, black pupils, small flat mouth and cream belly. IMAGE 3 is a previous completed anime shot of this character for identity/rendering continuity ONLY, not for its body pose or framing. Produce ONE standalone panoramic finished image. Replace the original human face with 奶娃's face, while retaining the EXTREME CLOSE-UP of a startled wide-open eye and tightly cropped face. EXACT COMPOSITION LOCK: the visible eye remains around the CENTER of the picture with the same tilt, gaze, size relative to the image and shocked expression; a very bright near-white blast dominates the RIGHT half; the large angular red-and-black impact/energy forms fill the LEFT half in the same shapes and directions. Show ONLY the same tight sliver of the creature's yellow face and its ONE prominent bulging GREEN eye with black pupil, naturally partially blown out by the intense light. The rest of the head and body remain cropped off frame; DO NOT zoom out to a full head or body and do not place a complete portrait in front of the blast. No human hair, eyebrows, tattoos, original human face or extra limbs. Preserve all red-black graphic streaks, the harsh white flare, scattering ink lines, crosshatching, original dramatic anime/manga cel-shaded style, paper/film grain and motion energy; adapt the creature reference to that original rendering, not smooth 3D. Remove the bottom Chinese subtitle and reconstruct the light/scene beneath. Remove all side pillarbox bars, the hard top and bottom letterbox bands outside the active image, and the thin colored top-edge artifact. Deliver only the original active wide scene as an edge-to-edge approximately 2.2:1 panoramic image (e.g.1920x864) without black borders or stretching. No captions, text, watermark, logos, comparison panels, extra characters or recomposed effects.",
+      "visual_review": "已查看人物身份、主要朝向动作、风格，以及字幕与黑边去除。",
+      "dimensions": [
+        1870,
+        841
+      ],
+      "saved": "视频素材\\素材2_人物替换测试_08-13\\12_奶娃眼部特写与强光.png",
+      "sha256": "5f934d1fd0c2cbc2d1ea6fcdcd93fd6296b9fe41cf4267e2b604de6dea01d8ed"
+    },
+    {
+      "key": "13",
+      "title": "近景小黑子背影与远景奶娃",
+      "paths": [
+        "视频素材\\素材2_主要场景\\13_08.867s_蓝色光圈中的人物.png",
+        "视频素材\\小黑子.jpg",
+        "视频素材\\奶娃.jpg"
+      ],
+      "prompt": "请直接以第一张原图为底图进行局部人物替换，输出一张完整横向画面。图二仅为小黑子外形参考，图三仅为奶娃外形参考。最重要的是描摹图一的原始人物骨架、动作、方向、位置、大小、透视及镜头，不要自由编排成新的打斗海报。\n1. 图一左侧靠近镜头的人物替换为【小黑子的背影】：银灰色中分头、黄色小鸡皮肤、黑色卫衣黑裤子、棕橙色背包，头和身体背向观众，面向右侧对手。完整保持图一这个左侧人物的身体倾斜角度、四肢走向与遮挡关系，不放大成占满左半幅的巨型背包。手臂末端是黄色手，腿末端是黑白运动鞋，四肢关节自然且连接正确，绝不把鞋画在手臂上。不要添加原图没有的挥拳、蹬腿等动作。\n2. 图一右侧较远处的正面人物替换为【奶娃】：光滑黄色长圆脑袋，绿色大眼睛，短平嘴，梨形黄身体和浅奶色肚皮，体型参照图三。奶娃正面朝向镜头和左侧对手，保持图一原人物前倾的上身、向两侧弯曲的双腿，以及胸前收拢交叠的双臂与结印手势。双手收在胸前，不要手撑地，不要抱肚子站立，不要改成超人落地姿势。\n3. 蓝色椭圆光圈、黑蓝虚空、人物周围的淡青轮廓光和能量光晕完全按图一保留。没有新增地板、竞技场或实物场景。两个人物均转换为图一原有的日式二维动漫风格、墨线、赛璐璐阴影和颗粒质感；不沿用参考图的白底、浅色卡通背景或三维材质。\n去掉原图字幕，补全字幕后方的场景；裁去上下左右所有矩形黑边和顶部细色线，只输出有效画面。保留有效画面约2.2:1的宽幅构图，不拉伸、不变焦、不改变两人的远近关系。无文字、水印、分栏、额外人物。人物骨架和原图构图优先于细节美化。",
+      "visual_review": "人物身份、近景背面与远景正面符合；肢体姿态及构图仍存在重绘偏差，作为测试版保留。",
+      "dimensions": [
+        1862,
+        845
+      ],
+      "saved": "视频素材\\素材2_人物替换测试_08-13\\13_近景小黑子背影与远景奶娃_测试版.png",
+      "sha256": "5681f3204200a46ab811be35042d83d53aba4110b198e022aad99815444c93d5"
+    }
+  ]
+}

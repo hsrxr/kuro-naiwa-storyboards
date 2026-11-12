@@ -1,0 +1,149 @@
+[
+  {
+    "id": "01",
+    "start_frame": 0,
+    "end_frame": 10,
+    "frames": 10,
+    "source": "generated 0:12"
+  },
+  {
+    "id": "白闪",
+    "start_frame": 10,
+    "end_frame": 11,
+    "frames": 1,
+    "source": "local flash"
+  },
+  {
+    "id": "02",
+    "start_frame": 11,
+    "end_frame": 25,
+    "frames": 14,
+    "source": "generated 16:26"
+  },
+  {
+    "id": "03",
+    "start_frame": 25,
+    "end_frame": 37,
+    "frames": 12,
+    "source": "generated 39:56"
+  },
+  {
+    "id": "03B",
+    "start_frame": 37,
+    "end_frame": 45,
+    "frames": 8,
+    "source": "existing 09 image; face close-up substitutes missing hand action"
+  },
+  {
+    "id": "04",
+    "start_frame": 45,
+    "end_frame": 53,
+    "frames": 8,
+    "source": "generated 67:87"
+  },
+  {
+    "id": "05",
+    "start_frame": 53,
+    "end_frame": 65,
+    "frames": 12,
+    "source": "generated 87:99"
+  },
+  {
+    "id": "06",
+    "start_frame": 65,
+    "end_frame": 101,
+    "frames": 36,
+    "source": "existing corrected 06 image to preserve both legs; camera pullback and light"
+  },
+  {
+    "id": "07A",
+    "start_frame": 101,
+    "end_frame": 122,
+    "frames": 21,
+    "source": "generated 112:125"
+  },
+  {
+    "id": "07B",
+    "start_frame": 122,
+    "end_frame": 135,
+    "frames": 13,
+    "source": "generated 125:135"
+  },
+  {
+    "id": "08",
+    "start_frame": 135,
+    "end_frame": 138,
+    "frames": 3,
+    "source": "existing 08 image with short push"
+  },
+  {
+    "id": "08B",
+    "start_frame": 138,
+    "end_frame": 141,
+    "frames": 3,
+    "source": "three-frame local insert"
+  },
+  {
+    "id": "09",
+    "start_frame": 141,
+    "end_frame": 174,
+    "frames": 33,
+    "source": "generated 175:184"
+  },
+  {
+    "id": "09B",
+    "start_frame": 174,
+    "end_frame": 178,
+    "frames": 4,
+    "source": "face push substitutes unavailable forehead hand action"
+  },
+  {
+    "id": "10A",
+    "start_frame": 178,
+    "end_frame": 180,
+    "frames": 2,
+    "source": "red-black local flash"
+  },
+  {
+    "id": "10B",
+    "start_frame": 180,
+    "end_frame": 181,
+    "frames": 1,
+    "source": "shrine detail flash"
+  },
+  {
+    "id": "10C",
+    "start_frame": 181,
+    "end_frame": 185,
+    "frames": 4,
+    "source": "corrected character silhouette flash"
+  },
+  {
+    "id": "11",
+    "start_frame": 185,
+    "end_frame": 212,
+    "frames": 27,
+    "source": "generated 194:217"
+  },
+  {
+    "id": "10D",
+    "start_frame": 212,
+    "end_frame": 222,
+    "frames": 10,
+    "source": "corrected character silhouette flash"
+  },
+  {
+    "id": "12",
+    "start_frame": 222,
+    "end_frame": 252,
+    "frames": 30,
+    "source": "existing 12 image; eye push and strong light"
+  },
+  {
+    "id": "13",
+    "start_frame": 252,
+    "end_frame": 270,
+    "frames": 18,
+    "source": "generated 252:270"
+  }
+]

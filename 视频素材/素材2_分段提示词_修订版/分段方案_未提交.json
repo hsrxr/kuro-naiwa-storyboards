@@ -1,0 +1,91 @@
+{
+  "status": "TEXT_ONLY_NO_GENERATION_AUTHORIZED_NOW",
+  "generated_videos_this_turn": 0,
+  "submitted_tasks_this_turn": 0,
+  "credits_spent_this_turn": 0,
+  "date": "2026-11-03T15:52:20.759325",
+  "original_video": "视频素材\\素材2.mp4",
+  "recommended_strategy": "Targeted replacement of failed shots; reuse already successful generated shots.",
+  "model_proposal": "seedance2.0_vip (same model, do not change without a separate decision)",
+  "resolution_proposal": "720p",
+  "ratio_proposal": "16:9",
+  "estimated_total_credits": 224,
+  "estimate_note": "Based on prior 4-second job costing112; not a platform price quote. Do not submit until user requests generation.",
+  "jobs": [
+    {
+      "id": "A",
+      "status": "text_only_not_submitted",
+      "title": "奶娃暗光结印与神社",
+      "images": [
+        "视频素材\\素材2_人物替换\\09_奶娃面部特写.png",
+        "视频素材\\素材2_人物替换\\06_奶娃背影与神社_比例修正.png"
+      ],
+      "source_ranges_end_exclusive": [
+        [
+          37,
+          45
+        ],
+        [
+          66,
+          101
+        ]
+      ],
+      "source_frames": 43,
+      "source_seconds": 1.4333333333333333,
+      "planned_input_seconds": 4,
+      "planned_output_seconds": 4,
+      "prompt_file": "视频素材\\素材2_分段提示词_修订版\\A_奶娃暗光结印与神社_提示词.txt",
+      "target_ranges_end_exclusive": [
+        [
+          37,
+          45
+        ],
+        [
+          66,
+          101
+        ]
+      ],
+      "estimated_credits": 112
+    },
+    {
+      "id": "B",
+      "status": "text_only_not_submitted",
+      "title": "奶娃受惊抬手与眼部",
+      "images": [
+        "视频素材\\素材2_人物替换\\09_奶娃面部特写.png",
+        "视频素材\\素材2_人物替换\\03_奶娃悬空.png",
+        "视频素材\\素材2_人物替换\\12_奶娃眼部特写与强光.png"
+      ],
+      "source_ranges_end_exclusive": [
+        [
+          141,
+          178
+        ],
+        [
+          222,
+          252
+        ]
+      ],
+      "source_frames": 67,
+      "source_seconds": 2.2333333333333334,
+      "planned_input_seconds": 4,
+      "planned_output_seconds": 4,
+      "prompt_file": "视频素材\\素材2_分段提示词_修订版\\B_奶娃受惊抬手与眼部_提示词.txt",
+      "target_ranges_end_exclusive": [
+        [
+          141,
+          174
+        ],
+        [
+          174,
+          178
+        ],
+        [
+          222,
+          252
+        ]
+      ],
+      "estimated_credits": 112
+    }
+  ]
+}

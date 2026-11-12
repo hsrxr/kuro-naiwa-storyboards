@@ -1,0 +1,125 @@
+{
+  "source": "视频素材\\素材2.mp4",
+  "duration_seconds": 9.0,
+  "fps": 30.0,
+  "selection": "按镜头与主要视觉变化人工挑选；PNG 保留原始画幅与画面中的字幕。",
+  "images": [
+    {
+      "number": 1,
+      "title": "城市夜景与人物",
+      "time_seconds": 0.1,
+      "frame_number": 3,
+      "file": "01_00.100s_城市夜景与人物.png",
+      "width": 1280,
+      "height": 578
+    },
+    {
+      "number": 2,
+      "title": "光线交错中的背影",
+      "time_seconds": 0.5,
+      "frame_number": 15,
+      "file": "02_00.500s_光线交错中的背影.png",
+      "width": 1280,
+      "height": 578
+    },
+    {
+      "number": 3,
+      "title": "高楼间的人物远景",
+      "time_seconds": 0.967,
+      "frame_number": 29,
+      "file": "03_00.967s_高楼间的人物远景.png",
+      "width": 1280,
+      "height": 578
+    },
+    {
+      "number": 4,
+      "title": "人物结印侧脸",
+      "time_seconds": 1.5,
+      "frame_number": 45,
+      "file": "04_01.500s_人物结印侧脸.png",
+      "width": 1280,
+      "height": 578
+    },
+    {
+      "number": 5,
+      "title": "暗处人物特写",
+      "time_seconds": 2.033,
+      "frame_number": 61,
+      "file": "05_02.033s_暗处人物特写.png",
+      "width": 1280,
+      "height": 578
+    },
+    {
+      "number": 6,
+      "title": "人物与神社对峙",
+      "time_seconds": 2.7,
+      "frame_number": 81,
+      "file": "06_02.700s_人物与神社对峙.png",
+      "width": 1280,
+      "height": 578
+    },
+    {
+      "number": 7,
+      "title": "城市中的黑色球体",
+      "time_seconds": 3.7,
+      "frame_number": 111,
+      "file": "07_03.700s_城市中的黑色球体.png",
+      "width": 1280,
+      "height": 578
+    },
+    {
+      "number": 8,
+      "title": "背影视角与手势",
+      "time_seconds": 4.5,
+      "frame_number": 135,
+      "file": "08_04.500s_背影视角与手势.png",
+      "width": 1280,
+      "height": 578
+    },
+    {
+      "number": 9,
+      "title": "白发人物面部特写",
+      "time_seconds": 5.2,
+      "frame_number": 156,
+      "file": "09_05.200s_白发人物面部特写.png",
+      "width": 1280,
+      "height": 578
+    },
+    {
+      "number": 10,
+      "title": "神社红色特效",
+      "time_seconds": 6.0,
+      "frame_number": 180,
+      "file": "10_06.000s_神社红色特效.png",
+      "width": 1280,
+      "height": 578
+    },
+    {
+      "number": 11,
+      "title": "红眼人物结印",
+      "time_seconds": 6.6,
+      "frame_number": 198,
+      "file": "11_06.600s_红眼人物结印.png",
+      "width": 1280,
+      "height": 578
+    },
+    {
+      "number": 12,
+      "title": "眼部特写与强光",
+      "time_seconds": 8.033,
+      "frame_number": 241,
+      "file": "12_08.033s_眼部特写与强光.png",
+      "width": 1280,
+      "height": 578
+    },
+    {
+      "number": 13,
+      "title": "蓝色光圈中的人物",
+      "time_seconds": 8.867,
+      "frame_number": 266,
+      "file": "13_08.867s_蓝色光圈中的人物.png",
+      "width": 1280,
+      "height": 578
+    }
+  ]
+}

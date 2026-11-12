@@ -1,0 +1,80 @@
+{
+  "tool": "image_gen built-in",
+  "status": "completed",
+  "requested_changes": {
+    "red_eyes": [
+      "04",
+      "05",
+      "11"
+    ],
+    "body_proportions": [
+      "06"
+    ]
+  },
+  "images": [
+    {
+      "key": "04",
+      "title": "小黑子侧脸结印_红眼",
+      "paths": [
+        "视频素材\\素材2_人物替换测试_02-06\\04_小黑子侧脸结印.png",
+        "视频素材\\替换素材\\霓虹都市中的小黑子.png"
+      ],
+      "prompt": "Local edit of IMAGE 1 only. IMAGE 2 is ONLY the red-eye effect reference, not a reference for pose, framing, background or general lighting. Add the SAME stylized glowing RED EYES as image 2: thin vivid crimson iris outline, small bright red pupil/core, soft restrained pink-red glow into the nearby eye white. Preserve the white/pale sclera rather than painting the entire eye solid red. Keep the eye shape, eyelid opening, expression, gaze and visibility exactly as in IMAGE 1. Do not add extra eyes or reveal an eye that is not visible in the original. Change only the existing iris/pupil color and their immediate subtle glow. Preserve the exact original character, face orientation, beak expression, gray center-parted hair, red cheeks, black hoodie, hands, fingers, hand seal, body pose, camera, framing, composition, background, linework, cel shading, grain, shadows and lighting outside the eyes. Do not borrow the frontal pose or neon city from image 2. No laser beams, large light rays, new objects, captions, subtitles, borders, logo or watermark. One standalone image in the SAME aspect ratio as IMAGE 1. Specifically for image 04: preserve the RIGHT-FACING side profile on the LEFT of frame and joined hands on the RIGHT. Only the ONE existing visible half-lidded side eye becomes red. Do not add the hidden far eye. Preserve the original 16:9 composition.",
+      "visual_review": "已按指定参考加入红眼，主要表情、朝向、动作与风格保留。",
+      "sha256": "7b156eb1b9287e948784edb0adf2aea52bc9855035db4f1d0a692b10eb30e0bd",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "saved": "视频素材\\素材2_修订_红眼与体型\\04_小黑子侧脸结印_红眼.png"
+    },
+    {
+      "key": "05",
+      "title": "小黑子暗光结印_红眼",
+      "paths": [
+        "视频素材\\素材2_人物替换测试_02-06\\05_小黑子暗光结印.png",
+        "视频素材\\替换素材\\霓虹都市中的小黑子.png"
+      ],
+      "prompt": "Local edit of IMAGE 1 only. IMAGE 2 is ONLY the red-eye effect reference, not a reference for pose, framing, background or general lighting. Add the SAME stylized glowing RED EYES as image 2: thin vivid crimson iris outline, small bright red pupil/core, soft restrained pink-red glow into the nearby eye white. Preserve the white/pale sclera rather than painting the entire eye solid red. Keep the eye shape, eyelid opening, expression, gaze and visibility exactly as in IMAGE 1. Do not add extra eyes or reveal an eye that is not visible in the original. Change only the existing iris/pupil color and their immediate subtle glow. Preserve the exact original character, face orientation, beak expression, gray center-parted hair, red cheeks, black hoodie, hands, fingers, hand seal, body pose, camera, framing, composition, background, linework, cel shading, grain, shadows and lighting outside the eyes. Do not borrow the frontal pose or neon city from image 2. No laser beams, large light rays, new objects, captions, subtitles, borders, logo or watermark. One standalone image in the SAME aspect ratio as IMAGE 1. Specifically for image 05: both existing visible eyes get the red iris/pupil treatment while the upper face remains in its original deep shadow. Keep the original triangular fingertip seal at lower-left, head angled toward screen-left on the right side, pink underlight, and exact 16:9 composition. Do not brighten the whole face or alter the hand gesture.",
+      "visual_review": "已按指定参考加入红眼，主要表情、朝向、动作与风格保留。",
+      "sha256": "e367fa6cb56fa722be2929b83dc55a21f7d7c6bf668e2901d82eee7059506e14",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "saved": "视频素材\\素材2_修订_红眼与体型\\05_小黑子暗光结印_红眼.png"
+    },
+    {
+      "key": "11",
+      "title": "小黑子逆光结印_红眼",
+      "paths": [
+        "视频素材\\素材2_人物替换测试_08-13\\11_小黑子逆光结印.png",
+        "视频素材\\替换素材\\霓虹都市中的小黑子.png"
+      ],
+      "prompt": "Local edit of IMAGE 1 only. IMAGE 2 is ONLY the red-eye effect reference, not a reference for pose, framing, background or general lighting. Add the SAME stylized glowing RED EYES as image 2: thin vivid crimson iris outline, small bright red pupil/core, soft restrained pink-red glow into the nearby eye white. Preserve the white/pale sclera rather than painting the entire eye solid red. Keep the eye shape, eyelid opening, expression, gaze and visibility exactly as in IMAGE 1. Do not add extra eyes or reveal an eye that is not visible in the original. Change only the existing iris/pupil color and their immediate subtle glow. Preserve the exact original character, face orientation, beak expression, gray center-parted hair, red cheeks, black hoodie, hands, fingers, hand seal, body pose, camera, framing, composition, background, linework, cel shading, grain, shadows and lighting outside the eyes. Do not borrow the frontal pose or neon city from image 2. No laser beams, large light rays, new objects, captions, subtitles, borders, logo or watermark. One standalone image in the SAME aspect ratio as IMAGE 1. Specifically for image 11: make BOTH existing eyes red, preserving their slanted half-lidded expression and original leftward gaze. Keep the two pressed vertical palms at center-left, character on the right, orange-white energy background and existing deep shadow on the right. Preserve the original panoramic approximately 2.2:1 framing, without zoom, stretching, new black bars or new light effects.",
+      "visual_review": "已按指定参考加入红眼，主要表情、朝向、动作与风格保留。",
+      "sha256": "56da2e58d5be260fbe3d2d7feef5828ad7e6e6ac116aa0aa0c0aebffa99dcc30",
+      "dimensions": [
+        1859,
+        846
+      ],
+      "saved": "视频素材\\素材2_修订_红眼与体型\\11_小黑子逆光结印_红眼.png"
+    },
+    {
+      "key": "06",
+      "title": "奶娃背影与神社_比例修正",
+      "paths": [
+        "视频素材\\素材2_人物替换测试_02-06\\06_奶娃背影与神社.png",
+        "视频素材\\奶娃.jpg"
+      ],
+      "prompt": "请对第一张图片进行局部体型修正。第二张只作为奶娃正常身体比例和腿部外形的参考。第一张中的奶娃目前臀部过度膨大，占满左下角，而且腿完全被遮没。将臀部、胯部和下腹的宽度与体积明显缩小，恢复奶娃自然的梨形躯干、收窄的腰胯、适度圆润的臀部，以及两条结构清楚、彼此可区分的黄色腿。大腿、小腿和膝部弯曲轮廓要在画面左下方清晰可见，至少两条腿的大部分都保留在画内，脚可接近画面下边缘；两腿间保留清楚间隙，不能再用一个巨大圆形臀部占满左下角。臀部宽度应与上半身相称，腿部比例参照图二，绝不添加尾巴、衣服、夸张肌肉或性化细节。人物仍位于画面左侧前景，背面朝向观众、面向右侧神社，保留原有前倾的战斗姿态。头部、颈部、朝向、抬起右手在脸侧结印的动作和手指手势保持原样。可以仅在原人物下半身区域重新安排缩小后的腰胯和弯曲双腿，使双腿可见，不要拉远镜头或缩小整张场景。腾出的原巨大臀部区域补成与原画一致的黑蓝背景和能量气流。右侧神社建筑、屋檐、雕刻、位置、大小、透视、白色与粉红色能量线、飞散碎片、黑蓝夜色，以及左侧青色和右侧粉红的轮廓光保持原样。严格保持图一原有的二维动漫墨线、交叉排线、赛璐璐阴影、强对比光影和颗粒，不采用图二的三维白底材质。保留原图横向16:9画幅，只交付一张完整图片，无字幕、黑边、文字、水印、额外人物。",
+      "visual_review": "臀胯体积缩小，双腿与双脚清晰可见，保留背面朝向和抬手结印，神社与画风保留。",
+      "sha256": "13fcf614a932d986409a736d39f0b1a19762ce7c867db1fd1c6cf23fe7632ed0",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "saved": "视频素材\\素材2_修订_红眼与体型\\06_奶娃背影与神社_比例修正.png"
+    }
+  ]
+}

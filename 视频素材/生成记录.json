@@ -1,0 +1,85 @@
+{
+  "tool": "image_gen built-in",
+  "status": "completed",
+  "scope": "图02至06；图01已由用户完成",
+  "visual_review": "已查看全部五张：人物替换、动作朝向、动漫风格、字幕和黑边去除。",
+  "images": [
+    {
+      "key": "02",
+      "title": "小黑子背影",
+      "prompt": "Edit the FIRST image; the SECOND image is only the replacement character identity reference. Produce ONE standalone finished widescreen image, not a comparison sheet. Replace the sole back-facing humanoid in image 1 with the character 小黑子 from image 2: a yellow chick-like cartoon character with silver-gray center-parted hair, a black hoodie and black trousers, and its orange-brown backpack visible from behind. This must be a BACK VIEW: no face, eyes, beak or frontal chest shown. Keep the exact original torso lean, shoulder/head orientation, rear camera viewpoint, silhouette placement and relative scale of the figure; adapt the reference character anatomy naturally to this existing pose rather than copying its standing frontal reference pose. Preserve all crossing brilliant white light beams, their exact geometry, dark blue-gray background, speed streaks, perspective, framing and original dramatic high-contrast hand-drawn anime / manga cel-shaded visual style. Render the replacement character in the ORIGINAL IMAGE'S detailed anime linework, shading, grain, lighting and scene palette, not the flat pastel style/background of the character reference. Important: retain the black hoodie and gray center-parted hair identity; show its believable back and backpack. Remove all Chinese subtitles and reconstruct the scene behind them. Completely remove the black vertical pillarbox bars and thin colored edge artifacts by framing only the active central image area; deliver a clean edge-to-edge 16:9 landscape image (approximately 1024x576 or a higher resolution at the same ratio), with no black border, no subtitles, no text, no logo and no watermark. Do not add other characters, alter the pose, reverse the orientation, recompose the beams, or invent a different setting.",
+      "references": [
+        "视频素材\\素材2_主要场景\\02_00.500s_光线交错中的背影.png",
+        "视频素材\\小黑子.jpg"
+      ],
+      "dimensions": [
+        1672,
+        941
+      ],
+      "saved": "视频素材\\素材2_人物替换测试_02-06\\02_小黑子背影.png",
+      "sha256": "caf391cd957f09eec9fead85bb8f6c838c8189261399654b6aa2be0b547c418a"
+    },
+    {
+      "key": "03",
+      "title": "奶娃悬空",
+      "prompt": "Edit image 1 as the fixed composition and anime-style target. Image 2 is ONLY the identity reference for the replacement character 奶娃. Output ONE standalone clean cinematic 16:9 landscape image. Replace the sole human floating between the skyscrapers in image 1 with the yellow creature from image 2: long rounded bald head, pear-shaped yellow body, large green eyes with black pupils, small flat mouth, pale cream belly, short arms and legs, and rounded three-toed feet. No human hair and no human clothing. Translate this creature into exactly the original hand-drawn high-contrast anime / manga cel-shaded linework, grain and lighting; do not import the reference's white background or its smooth 3D studio rendering. CRITICAL POSE LOCK: use the original target's floating midair action, at the same center-right screen position and same relative height and scale among the buildings. Keep its torso largely facing the camera, its head angled slightly toward screen-left, the leg on screen-left raised with its knee bent outward, the other leg lower, its arm on screen-right hanging down, and the other arm bent close to its body. Adapt the creature's short limbs to this action naturally. Do not use the reference pose with both hands resting on its belly. Preserve the exact skyline layout, window strips, building silhouettes, floating dark debris, warm pink-white backlight at upper left, dark blue-black city palette and camera perspective. Remove the bottom Chinese subtitle and reconstruct buildings behind it. Remove all black pillarbox bars and the thin colored top-edge artifacts, showing ONLY the active central scene as a clean edge-to-edge 16:9 widescreen image, at approximately 1024x576 or higher resolution with this same ratio. No borders, captions, text, watermarks, additional characters, unrelated objects, or changes to the setting.",
+      "references": [
+        "视频素材\\素材2_主要场景\\03_00.967s_高楼间的人物远景.png",
+        "视频素材\\奶娃.jpg"
+      ],
+      "dimensions": [
+        1672,
+        941
+      ],
+      "saved": "视频素材\\素材2_人物替换测试_02-06\\03_奶娃悬空.png",
+      "sha256": "2c1443c4dad1da76998517bb099d73587453ab0a05b4630a71046197d0617913"
+    },
+    {
+      "key": "04",
+      "title": "小黑子侧脸结印",
+      "prompt": "Edit the FIRST image, keeping its camera, composition and original detailed hand-drawn anime / manga style. The SECOND image is ONLY the identity reference for 小黑子: a yellow chick-like cartoon character with silver-gray center-parted curtain hair, large white eyes with black pupils, red circular cheek patches, small orange beak, black hoodie and trousers. Replace the original person completely with this character, integrating it into the ORIGINAL target's dark blue-gray cel shading, precise ink contours, crosshatching, film grain, cool rim light and subtle pink highlights. This is a CLOSE-UP SIDE PROFILE, face on the LEFT side of the picture looking toward SCREEN-RIGHT. Preserve EXACTLY the target's head tilt, camera angle, shoulder position, half-lidded sly expression and gaze direction. Its yellow hands must form the SAME joined-palms hand seal on the RIGHT side of the frame, held up near its face, with the same vertical extended fingers, finger arrangement, wrist angle and hand size relative to its head. Use anatomically coherent cartoon yellow hands adapted to that original gesture. Do not copy the reference's frontal gaze or standing pose. Silver-gray middle-part hair should remain recognizable, with the red cheek patch on the visible side and a naturally side-view orange beak. Keep its black hoodie visible at the neck/shoulders, preserve the original background and depth of field. Remove the original person's tattoos and human facial identity. Remove the Chinese subtitle by reconstructing the hoodie/background underneath. Trim off the black pillarbox bars and thin colored top-edge line so ONLY the active central scene fills a clean 16:9 landscape canvas, approximately 1024x576 or higher resolution at the same ratio. Deliver ONE standalone finished image, no comparison, no borders, no text, no logos, no watermark. Do not reverse the face direction or alter the pose.",
+      "references": [
+        "视频素材\\素材2_主要场景\\04_01.500s_人物结印侧脸.png",
+        "视频素材\\小黑子.jpg"
+      ],
+      "dimensions": [
+        1672,
+        941
+      ],
+      "saved": "视频素材\\素材2_人物替换测试_02-06\\04_小黑子侧脸结印.png",
+      "sha256": "5756cad2e38562d88e351ffda3a1497608813d94772711410280abad4bbc6c13"
+    },
+    {
+      "key": "05",
+      "title": "小黑子暗光结印",
+      "prompt": "Produce ONE standalone edited image. IMAGE 1 is the EXACT SCENE, POSE AND CAMERA to preserve. IMAGE 2 is the character identity reference 小黑子. IMAGE 3 is an already completed different shot of this same replacement character, provided ONLY for appearance and anime-rendering continuity, NOT for its pose or composition. Completely replace the original human in image 1 with 小黑子, keeping its recognizable silver-gray center-parted curtain hair, yellow chick face and hands, red circular cheek patches, orange beak, two large white eyes with black pupils, black hoodie and gray backpack straps. Preserve image 1's close-up composition, slightly low camera angle, head filling the UPPER RIGHT area and angled toward SCREEN-LEFT, sly confident grin, raised joined hands occupying the LOWER LEFT / CENTER area, and EXACT ORIGINAL triangular fingertip hand seal near its mouth. Do NOT use image 3's right-facing profile or upright praying-palms composition; copy the pose and direction of IMAGE 1 only. Adapt the small orange beak into the same sly expression and yellow hands into the exact original fingertip configuration. Keep two character eyes, no original human tattoo markings and no extra eyes. The upper face and gray hair should stay in very deep near-black shadow, with eyes dimly visible, and the lower face, beak and hands lit by the original pale pink-white underlight. Keep original silhouette placement, camera distance, black background, pink light patches and shoulder contours. Render in image 1's original hand-drawn detailed high-contrast anime / manga cel shading, ink crosshatching, grain, darkness and colors, consistent with image 3's character. No pastel reference background or flat sticker compositing. Remove the Chinese subtitle and reconstruct the image naturally underneath. Trim away black pillarbox bars and the thin colored edge line so ONLY the active central scene fills an edge-to-edge clean 16:9 landscape canvas (approximately 1024x576 or higher resolution at same ratio). No text, borders, logos, watermark, comparison panels, new characters, flipped orientation or different hand gesture.",
+      "references": [
+        "视频素材\\素材2_主要场景\\05_02.033s_暗处人物特写.png",
+        "视频素材\\小黑子.jpg",
+        "前序人物替换图"
+      ],
+      "dimensions": [
+        1672,
+        941
+      ],
+      "saved": "视频素材\\素材2_人物替换测试_02-06\\05_小黑子暗光结印.png",
+      "sha256": "0b180fbccd42e822144274370fb89eb33ff0ed2ffbe38403607ed07a4ba67dba"
+    },
+    {
+      "key": "06",
+      "title": "奶娃背影与神社",
+      "prompt": "Edit IMAGE 1 as the fixed composition, camera, pose and anime-style target. IMAGE 2 is ONLY the identity reference for the replacement character 奶娃: a smooth yellow pear-shaped cartoon creature, elongated bald rounded head, cream belly, large green eyes, short arms and legs and rounded feet. IMAGE 3 is an already finished shot of 奶娃 in the same sequence, for character and hand-drawn rendering continuity ONLY, NOT for pose or composition. Output ONE standalone 16:9 landscape image. Replace ONLY the white-haired human in the LEFT FOREGROUND of image 1 with 奶娃, viewed from BEHIND in the SAME three-quarter back orientation, body facing the shrine toward SCREEN-RIGHT. Exact pose lock: preserve image 1's foreground character position, occupied screen area, camera height, crouched/leaning torso, hip/leg silhouette and the ONE bent raised arm with its hand held near the right side of the head in the SAME fingers-up seal gesture. Adapt the creature's anatomy to that action. Show the bald yellow back of its long head and rounded back/shoulder; at most a narrow side contour on the right; do not turn its face toward the viewer, do not show frontal eyes or the cream belly on its back, and do not copy image 2's standing front pose or image 3's floating pose. Do not keep human white hair or human black/white clothing: its identity is the yellow creature. Keep the ENTIRE original red ornate shrine on the RIGHT, its exact architectural shape, skull-like details, dark sky, flying shards, white and pink diagonal energy streaks, blue rim light at left and red rim light on the creature's right edge. Preserve the exact original scene perspective and dramatic hand-drawn high-contrast anime / manga cel shading, ink contours, grain and action lighting. The yellow creature must be rendered naturally in this original style, not pasted as a 3D model or pastel sticker. Remove all Chinese subtitles, reconstructing foreground/background behind them. Remove black pillarbox bars and thin colored edge artifact, so the active scene alone fills a clean edge-to-edge 16:9 landscape canvas at approximately 1024x576 or higher resolution at the same ratio. No text, black border, logos, watermark, extra characters, changes to the shrine, reversed direction, or new composition.",
+      "references": [
+        "视频素材\\素材2_主要场景\\06_02.700s_人物与神社对峙.png",
+        "视频素材\\奶娃.jpg",
+        "前序人物替换图"
+      ],
+      "dimensions": [
+        1672,
+        941
+      ],
+      "saved": "视频素材\\素材2_人物替换测试_02-06\\06_奶娃背影与神社.png",
+      "sha256": "8812b10da8f682454befe86de1f6943c21673684879b7397e2cd358637e46b82"
+    }
+  ]
+}
