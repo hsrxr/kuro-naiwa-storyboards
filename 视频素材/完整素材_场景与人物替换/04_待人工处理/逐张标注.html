@@ -6,7 +6,7 @@
 nav{max-height:96vh;overflow-y:auto;align-self:start}nav>b{font-size:13px;color:#e9c781;padding:7px;white-space:nowrap}@media(max-width:800px){nav>b{display:none}}</style>
 <header><strong>镜头标注</strong><span id="progress"></span><div id="transfer"><button id="importBtn">导入清单</button><button id="writeBtn" class="gold" hidden>保存到固定文件</button><a id="liveLink" href="http://127.0.0.1:18733/" hidden>打开固定路径保存页</a><button id="exportBtn">导出 JSON 清单</button></div><input id="upload" type="file" accept=".json,application/json" hidden></header>
 <div class="layout"><nav id="nav" aria-label="镜头列表"></nav><main><div class="top"><h1 id="title"></h1><div class="arrows"><button id="prev">上一张</button><button id="next">下一张</button></div></div><p class="reason" id="reason"></p>
-<details class="refs"><summary>查看角色参考图</summary><div><a href="../../人物/小黑子.jpg" target="_blank" rel="noopener"><img src="../../人物/小黑子.jpg" alt="小黑子参考图"><span>小黑子</span></a><a href="../../人物/奶娃.jpg" target="_blank" rel="noopener"><img src="../../人物/奶娃.jpg" alt="奶娃参考图"><span>奶娃</span></a><a href="../../人物/豆包.jpg" target="_blank" rel="noopener"><img src="../../人物/豆包.jpg" alt="豆包参考图"><span>豆包</span></a><a href="../../人物/肥嘟嘟.jpg" target="_blank" rel="noopener"><img src="../../人物/肥嘟嘟.jpg" alt="肥嘟嘟参考图"><span>肥嘟嘟</span></a><a href="../../人物/牛来.jpg" target="_blank" rel="noopener"><img src="../../人物/牛来.jpg" alt="牛来参考图"><span>牛来</span></a><a href="../../人物/牛来半身.jpg" target="_blank" rel="noopener"><img src="../../人物/牛来半身.jpg" alt="牛来半身参考图"><span>牛来半身</span></a><a href="../../人物/牛来全身.jpg" target="_blank" rel="noopener"><img src="../../人物/牛来全身.jpg" alt="牛来全身参考图"><span>牛来全身</span></a></div></details>
+<details class="refs"><summary>查看角色参考图</summary><div><a href="../../人物/小黑子.jpg" target="_blank" rel="noopener"><img src="../../人物/小黑子.jpg" alt="小黑子参考图"><span>小黑子</span></a><a href="../../人物/奶娃.jpg" target="_blank" rel="noopener"><img src="../../人物/奶娃.jpg" alt="奶娃参考图"><span>奶娃</span></a><a href="../../人物/豆包.jpg" target="_blank" rel="noopener"><img src="../../人物/豆包.jpg" alt="豆包参考图"><span>豆包</span></a><a href="../../人物/肥嘟嘟.jpg" target="_blank" rel="noopener"><img src="../../人物/肥嘟嘟.jpg" alt="肥嘟嘟参考图"><span>肥嘟嘟</span></a><a href="../../人物/牛来.jpg" target="_blank" rel="noopener"><img src="../../人物/牛来.jpg" alt="牛来参考图"><span>牛来</span></a><a href="../../人物/牢大.png" target="_blank" rel="noopener"><img src="../../人物/牢大.png" alt="牢大参考图"><span>牢大</span></a><a href="../../人物/曼波.jpg" target="_blank" rel="noopener"><img src="../../人物/曼波.jpg" alt="曼波参考图"><span>曼波</span></a><a href="../../人物/魔童.jpg" target="_blank" rel="noopener"><img src="../../人物/魔童.jpg" alt="魔童参考图"><span>魔童</span></a><a href="../../人物/水豚嘟嘟.jpg" target="_blank" rel="noopener"><img src="../../人物/水豚嘟嘟.jpg" alt="水豚嘟嘟参考图"><span>水豚嘟嘟</span></a><a href="../../人物/乌萨奇.png" target="_blank" rel="noopener"><img src="../../人物/乌萨奇.png" alt="乌萨奇参考图"><span>乌萨奇</span></a><a href="../../人物/熊大.jpg" target="_blank" rel="noopener"><img src="../../人物/熊大.jpg" alt="熊大参考图"><span>熊大</span></a><a href="../../人物/aabc.jpg" target="_blank" rel="noopener"><img src="../../人物/aabc.jpg" alt="aabc参考图"><span>aabc</span></a></div></details>
 <div class="controls" id="tools"></div>
 <div class="frames"><figure><figcaption>待处理底图 · 标注区</figcaption><div id="stage" class="stage"><img class="image" id="base" draggable="false" alt="可标注的待处理底图"><div id="boxes"></div></div></figure><figure><figcaption>原图对照</figcaption><a id="originalLink" target="_blank" rel="noopener"><img class="image" id="original" alt="原片截图，点击放大"></a></figure></div>
 <figure class="strip"><figcaption>前后帧参考 <small>· 中间带星号的是当前帧，点击放大</small></figcaption><a id="stripLink" target="_blank" rel="noopener"><img class="image" id="strip" alt="目标帧前后四帧和八帧的画面"></a></figure>
@@ -15,11 +15,18 @@ nav{max-height:96vh;overflow-y:auto;align-self:start}nav>b{font-size:13px;color:
 'use strict';
 const shots=JSON.parse(document.querySelector('#data').textContent), $=id=>document.getElementById(id);
 const characters = {
-  '小黑子': '#ff986f',
-  '奶娃': '#7cdaca',
-  '豆包': '#86baff',
-  '肥嘟嘟': '#f798bb',
-  '牛来': '#e9cd69'
+  "小黑子": "#ff986f",
+  "奶娃": "#7cdaca",
+  "豆包": "#86baff",
+  "肥嘟嘟": "#f798bb",
+  "牛来": "#e9cd69",
+  "牢大": "#d5a6ff",
+  "曼波": "#a4d786",
+  "魔童": "#fb927f",
+  "水豚嘟嘟": "#a2c5c0",
+  "乌萨奇": "#f3ce9c",
+  "熊大": "#d6b390",
+  "aabc": "#b8baf7"
 };
 const colors = {...characters, '跳过此处': '#c3bde5'};
 

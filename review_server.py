@@ -17,7 +17,7 @@ PAGE = Path("视频素材/完整素材_场景与人物替换/04_待人工处理/
 NAME = "33镜头_人工标注清单.json"
 TARGET = ROOT / NAME
 LOCK = Lock()
-ROLES = {"小黑子", "奶娃", "肥嘟嘟", "豆包", "牛来"}
+ROLES = {'牛来', '牢大', '小黑子', '曼波', '奶娃', '水豚嘟嘟', '熊大', 'aabc', '肥嘟嘟', '乌萨奇', '魔童', '豆包'}
 IDENTITY = ("id", "frame", "seconds", "image", "width", "height")
 
 
